@@ -44,7 +44,7 @@ f_radios_settings_acre2_BackpackRadio = "ACRE_PRC117F";
 // string id, displayname
 f_radios_settings_acre2_languages =
 [
-    ["blu", "English"],
+    ["blu", "Friendlese"],
     ["ind", "Foreignese"],
     ["opf", "Enemese"]
 ];
@@ -66,10 +66,18 @@ f_radios_settings_acre2_language_indfor = ["opf"];
 // Examples: A1 net composed of FTL, Riflemen, Medic etc.  Partisan/guerrilla comms for localised coordination.
 f_radios_settings_acre2_sr_groups_blufor =
 [
-    ["ALPHA",    ["ALPHA"]],
-    ["BRAVO",    ["BRAVO"]],
-    ["CHARLIE",    ["CHARLIE"]],
-    ["COMMAND",    ["COMMAND"]]
+    ["A-1",    ["A-1"]],
+    ["A-2",    ["A-2"]],
+    ["A-3",    ["A-3"]],
+	["B-1",    ["B-1"]],
+    ["B-2",    ["B-2"]],
+    ["B-3",    ["B-3"]],
+	["C-1",    ["C-1"]],
+    ["C-2",    ["C-2"]],
+    ["C-3",    ["C-3"]],
+    ["MMG",    ["MMG"]],
+    ["SNIPER",    ["SNIPER"]],
+    ["SUNRAY",    ["SUNRAY"]]
 ];
 
 f_radios_settings_acre2_sr_groups_opfor = f_radios_settings_acre2_sr_groups_blufor;
@@ -82,11 +90,10 @@ f_radios_settings_acre2_sr_groups_indfor = f_radios_settings_acre2_sr_groups_blu
 // Examples: Alpha net composed of ASL, A1, A2.  Section net composed of ASL, A2IC, AMED.  Mechanised team composed of ASL, A-Vic.
 f_radios_settings_acre2_lr_groups_blufor =
 [
-    ["GROUND CMD",    []],
-    ["ALPHA NET",    ["ALPHA"]],
-    ["BRAVO NET",    ["BRAVO"]],
-    ["CHARLIE NET",    ["CHARLIE"]],
-    ["HOTLINE ZEUS",    ["ZEUS"]]
+    ["GROUND CMD",    ["SUNRAY", "MMG", "SNIPER"]],
+    ["ALPHA NET",    ["A-1", "A-2", "A-3"]],
+    ["BRAVO NET",    ["B-1", "B-2", "B-3"]],
+    ["CHARLIE NET",    ["C-1", "C-2", "C-3"]]
 ];
 
 f_radios_settings_acre2_lr_groups_opfor = f_radios_settings_acre2_lr_groups_blufor;
@@ -99,11 +106,10 @@ f_radios_settings_acre2_lr_groups_indfor = f_radios_settings_acre2_lr_groups_blu
 // Examples: Ground command net composed of CO, ASL, BSL, CSL.  Vehicle net composed of XO/VC, A-Vic, B-Vic, CAS.  Liason net composed of CO, INDFOR CO.
 f_radios_settings_acre2_xlr_groups_blufor =
 [
-    ["GROUND CMD",    ["ALPHA", "BRAVO", "CHARLIE", "COMMAND", "ZEUS"]],
+    ["GROUND CMD",    ["A-1", "B-1", "C-1", "SUNRAY", "ZEUS"]],
     ["ALPHA NET",    []],
     ["BRAVO NET",    []],
-    ["CHARLIE NET",    []],
-    ["HOTLINE ZEUS",    []]
+    ["CHARLIE NET",    []]
 ];
 
 f_radios_settings_acre2_xlr_groups_opfor = f_radios_settings_acre2_xlr_groups_blufor;
