@@ -230,7 +230,6 @@ COPY_ADDONS(mmg_ammo,rif);
 _baseLoadout = [["UK3CB_BAF_L115A3_DE","UK3CB_BAF_Silencer_L115A3","","CUP_optic_AN_PVS_10",["UK3CB_BAF_338_5Rnd_Tracer",5],[],"UK3CB_underbarrel_acc_bipod"],[],["UK3CB_BAF_L131A1","muzzle_snds_L","UK3CB_BAF_Laser_L131A1","",["30Rnd_9x21_Mag",30],[],""],["CUP_U_B_BAF_MTP_GHILLIE",[["ACE_bloodIV_500",2],["ACE_elasticBandage",10],["ACE_quikclot",5],["ACE_packingBandage",5],["ACE_epinephrine",2],["ItemcTabHCam",1],["ACE_morphine",4],["ACE_tourniquet",2]]],["CUP_V_JPC_lightbelt_rngr",[["ACE_HuntIR_monitor",1],["ACE_MapTools",1],["ACE_microDAGR",1],["UK3CB_BAF_SmokeShell",1,1],["30Rnd_9x21_Red_Mag",1,30],["UK3CB_BAF_338_5Rnd_Tracer",6,5]]],["UK3CB_BAF_B_Bergen_MTP_SL_L_A",[]],"UK3CB_BAF_H_Mk7_Scrim_A","CUP_FR_NeckScarf2",["UK3CB_BAF_Soflam_Laserdesignator","","","",["Laserbatteries",1],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","CUP_NVG_PVS15_tan"]];
 
 CREATE_LOADOUT(ftl_sniper,_baseLoadout);
-COPY_ADDONS(ftl_sniper,rif);
 
 
 // sniper medic Loadout
@@ -238,7 +237,6 @@ COPY_ADDONS(ftl_sniper,rif);
 _baseLoadout = [["CUP_srifle_L129A1_HG_d","muzzle_snds_B_snd_F","CUP_acc_ANPEQ_2_desert","CUP_optic_AN_PVS_10",["CUP_20Rnd_TE1_Red_Tracer_762x51_M110",20],[],"CUP_bipod_Harris_1A2_L_BLK"],[],["UK3CB_BAF_L131A1","muzzle_snds_L","UK3CB_BAF_Laser_L131A1","",["30Rnd_9x21_Mag",30],[],""],["CUP_U_B_BAF_MTP_GHILLIE",[["ACE_elasticBandage",10],["ACE_quikclot",5],["ACE_packingBandage",5],["ACE_epinephrine",2],["ItemcTabHCam",1],["ACE_morphine",4],["ACE_tourniquet",2]]],["CUP_V_JPC_lightbelt_rngr",[["ACE_HuntIR_monitor",1],["ACE_MapTools",1],["ACE_microDAGR",1],["UK3CB_BAF_SmokeShell",2,1],["30Rnd_9x21_Red_Mag",1,30],["CUP_20Rnd_TE1_Red_Tracer_762x51_M110",1,20],["CUP_20Rnd_762x51_B_M110",3,20]]],["UK3CB_BAF_B_Bergen_MTP_Medic_L_B",[["ACE_bloodIV",10],["ACE_packingBandage",30],["ACE_elasticBandage",20],["ACE_adenosine",10],["ACE_epinephrine",10],["ACE_morphine",10],["ACE_surgicalKit",1],["ACE_tourniquet",10],["ACE_splint",10]]],"UK3CB_BAF_H_Mk7_Scrim_A","CUP_FR_NeckScarf2",["UK3CB_BAF_Soflam_Laserdesignator","","","",[],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","CUP_NVG_PVS15_tan"]];
 
 CREATE_LOADOUT(med_sniper,_baseLoadout);
-COPY_ADDONS(med_sniper,rif);
 
 
 // observer Loadout
@@ -246,7 +244,6 @@ COPY_ADDONS(med_sniper,rif);
 _baseLoadout = [["CUP_srifle_L129A1_HG_d","muzzle_snds_B_snd_F","CUP_acc_ANPEQ_2_desert","CUP_optic_AN_PVS_10",["CUP_20Rnd_TE1_Red_Tracer_762x51_M110",20],[],"CUP_bipod_Harris_1A2_L_BLK"],[],["UK3CB_BAF_L131A1","muzzle_snds_L","UK3CB_BAF_Laser_L131A1","",["30Rnd_9x21_Mag",30],[],""],["CUP_U_B_BAF_MTP_GHILLIE",[["ACE_bloodIV_500",2],["ACE_elasticBandage",10],["ACE_quikclot",5],["ACE_packingBandage",5],["ACE_epinephrine",2],["ItemcTabHCam",1],["ACE_morphine",4],["ACE_tourniquet",2]]],["CUP_V_JPC_lightbelt_rngr",[["ACE_HuntIR_monitor",1],["ACE_MapTools",1],["ACE_microDAGR",1],["UK3CB_BAF_SmokeShell",2,1],["30Rnd_9x21_Red_Mag",1,30],["CUP_20Rnd_TE1_Red_Tracer_762x51_M110",1,20],["CUP_20Rnd_762x51_B_M110",3,20]]],[],"UK3CB_BAF_H_Mk7_Scrim_A","CUP_FR_NeckScarf2",["UK3CB_BAF_Soflam_Laserdesignator","","","",["Laserbatteries",1],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","CUP_NVG_PVS15_tan"]];
 
 CREATE_LOADOUT(observer,_baseLoadout);
-COPY_ADDONS(observer,rif);
 
 
 // sniper Loadout
@@ -254,7 +251,6 @@ COPY_ADDONS(observer,rif);
 _baseLoadout = [["UK3CB_BAF_L115A3_DE","UK3CB_BAF_Silencer_L115A3","","CUP_optic_AN_PVS_10",["UK3CB_BAF_338_5Rnd_Tracer",5],[],"UK3CB_underbarrel_acc_bipod"],[],["UK3CB_BAF_L131A1","muzzle_snds_L","UK3CB_BAF_Laser_L131A1","",["30Rnd_9x21_Mag",30],[],""],["CUP_U_B_BAF_MTP_GHILLIE",[["ACE_bloodIV_500",2],["ACE_elasticBandage",10],["ACE_quikclot",5],["ACE_packingBandage",5],["ACE_epinephrine",2],["ItemcTabHCam",1],["ACE_morphine",4],["ACE_tourniquet",2]]],["CUP_V_JPC_lightbelt_rngr",[["ACE_HuntIR_monitor",1],["ACE_MapTools",1],["ACE_microDAGR",1],["UK3CB_BAF_SmokeShell",1,1],["30Rnd_9x21_Red_Mag",1,30],["UK3CB_BAF_338_5Rnd_Tracer",6,5]]],[],"UK3CB_BAF_H_Mk7_Scrim_A","CUP_FR_NeckScarf2",["UK3CB_BAF_Soflam_Laserdesignator","","","",["Laserbatteries",1],[],""],["ItemMap","ItemGPS","","ItemCompass","ItemWatch","CUP_NVG_PVS15_tan"]];
 
 CREATE_LOADOUT(sniper,_baseLoadout);
-COPY_ADDONS(sniper,rif);
 
 
 // Zeus
