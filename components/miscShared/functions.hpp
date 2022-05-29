@@ -39,4 +39,5 @@ class miscShared
     class fixOverdose{};
     class toggleAIPath{};
     class keepUnitHealthy{};
+    class createBriefingToggle{};
 };
