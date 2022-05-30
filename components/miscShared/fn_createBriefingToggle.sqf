@@ -14,7 +14,7 @@ _toggleOn =
 	
 	["LAG WARNING - 5 SECONDS"] remoteExecCall ["hint", 0];
 	sleep 5;
-	_tableParams remoteExecCall ["sebs_briefing_table_fnc_createTable", 0, _table];
+	_tableParams remoteExec ["sebs_briefing_table_fnc_createTable", 0, _table];
 	sleep 3;
 	[""] remoteExecCall ["hint", 0];
 };
@@ -29,7 +29,7 @@ _toggleOff =
 	
 	["LAG WARNING - 5 SECONDS"] remoteExecCall ["hint", 0];
 	sleep 5;
-	_tableParams remoteExecCall ["sebs_briefing_table_fnc_clearTable", 0, _table];
+	_tableParams remoteExec ["sebs_briefing_table_fnc_clearTable", 0, _table];
 	sleep 3;
 	[""] remoteExecCall ["hint", 0];
 };

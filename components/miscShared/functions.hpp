@@ -40,4 +40,5 @@ class miscShared
     class toggleAIPath{};
     class keepUnitHealthy{};
     class createBriefingToggle{};
+    class doTimeSkipTeleport{};
 };

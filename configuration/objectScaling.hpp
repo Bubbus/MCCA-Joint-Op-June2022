@@ -25,4 +25,4 @@
 
 
 // To disable object scaling support, comment-out or delete the line below.
-// #define ENABLE_SCALE_SUPPORT
+#define ENABLE_SCALE_SUPPORT
