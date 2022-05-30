@@ -8,75 +8,66 @@ if (hasInterface) then
 		[] spawn 
 		{
 			"MissionIn" cutText ["", "BLACK FADED", 40, false, false];
-			sleep 5;
+			uiSleep 5;
 			"MissionIn" cutText ["", "BLACK FADED", 40, false, false];
-			sleep 5;
+			uiSleep 5;
 			"MissionIn" cutText ["", "BLACK FADED", 40, false, false];
-			sleep 5;
+			uiSleep 5;
 			"MissionIn" cutText ["", "BLACK FADED", 40, false, false];
-			sleep 5;
+			uiSleep 5;
 			"MissionIn" cutText ["", "BLACK FADED", 40, false, false];
-			sleep 5;
+			uiSleep 5;
 			"MissionIn" cutText ["", "BLACK FADED", 40, false, false];
-			sleep 6.5;
-			"MissionIn" cutText ["", "BLACK FADED", 4, false, false];
+			uiSleep 5;
+			"MissionIn" cutText ["", "BLACK FADED", 40, false, false];
+			uiSleep 5;
+			"MissionIn" cutText ["", "BLACK FADED", 40, false, false];
+			uiSleep 5;
+			"MissionIn" cutText ["", "BLACK FADED", 3, false, false];
+			uiSleep 2;
 			"MissionIn" cutFadeOut 2;
 		};
 		
-		sleep 2;
-		"MissionText" cutText ['<t size="2.0" font="PuristaMedium">December 18th, 1987</t>', "PLAIN", 1.5, false, true];
-		sleep 2;
+		uiSleep 7;
+		"MissionText" cutText ['<t size="2.0" font="LCD14" color="#aa0000">1730 LOCAL</t><br/><t size="2.0" font="PuristaMedium">Airborne, approaching Kinduf</t>', "PLAIN", 1.5, false, true];
+		uiSleep 3;
 		"MissionText" cutFadeOut 2;
 
-		sleep 2;
-		"MissionText" cutText ['<t size="2.0" font="PuristaMedium">Hörsingen rail depot</t><br/><t size="2.0" font="PuristaLight">8km east of the Berlin Frontline</t>', "PLAIN", 1.5, false, true];
-		sleep 2;
+		uiSleep 2;
+		"MissionText" cutText ['<t size="2.0" font="PuristaLight">Fighting has broken out between</t><br/><t size="2.0" font="PuristaMedium">French specops and local army factions.</t>', "PLAIN", 1.5, false, true];
+		uiSleep 3;
 		"MissionText" cutFadeOut 2;
 
-		sleep 3;
-		"MissionText" cutText ['<t size="2.5" font="PuristaMedium">Mission:</t><br/>', "PLAIN", 1, false, true];
-		sleep 2;
-		"MissionText" cutFadeOut 1;
-		sleep 2;
-		"MissionText" cutText ['<t size="2.5" font="PuristaLight" color="#888888">Infiltrate.</t><br/>', "PLAIN", 1, false, true];
-		sleep 2;
-		"MissionText" cutFadeOut 1;
-		sleep 2;
-		"MissionText" cutText ['<t size="2.5" font="PuristaLight"color="#888888">Demolish infrastructure.</t><br/>', "PLAIN", 1, false, true];
-		sleep 2;
-		"MissionText" cutFadeOut 1;
-		sleep 2;
-		"MissionText" cutText ['<t size="2.5" font="PuristaMedium" color="#ff0000">Kill Comrade Gibbisov.</t><br/>', "PLAIN", 2, false, true];
-		sleep 2;
+		uiSleep 2;
+		"MissionText" cutText ['<t size="2.0" font="PuristaLight">Contact with civilian transport flights</t><br/><t size="2.0" font="PuristaMedium">has been lost.</t>', "PLAIN", 1.5, false, true];
+		uiSleep 3;
 		"MissionText" cutFadeOut 2;
-		sleep 4;
+
+		uiSleep 2;
+		"MissionText" cutText ["<t size='2.0' font='PuristaMedium'>It's about to get a little hairy, chaps.</t>", "PLAIN", 1.5, false, true];
+		uiSleep 3;
+		"MissionText" cutFadeOut 2;
+
+		uiSleep 3;
+		"MissionText" cutText ['<t size="2.5" font="PuristaLight" color="#888888">Survive until nightfall.</t><br/>', "PLAIN", 1, false, true];
+		uiSleep 2;
+		"MissionText" cutFadeOut 2;
+		uiSleep 2;
+		"MissionText" cutText ['<t size="2.5" font="PuristaLight"color="#888888">Eliminate the commander.</t><br/>', "PLAIN", 1, false, true];
+		uiSleep 2;
+		"MissionText" cutFadeOut 2;
+		uiSleep 2;
+		"MissionText" cutText ['<t size="2.5" font="PuristaMedium" color="#ff0000">Locate the nuclear weapons.</t><br/>', "PLAIN", 1, false, true];
+		uiSleep 2;
+		"MissionText" cutFadeOut 2;
+		uiSleep 3;
 
 		_markerName = (group player) getVariable ["tp_marker", "tp_default"];
 		player setPos (getMarkerPos _markerName);
 
-		"MissionText" cutText ['<t size="3.0" font="PuristaBold">A Velvet Execution</t><br/><t size="1" font="PuristaLight" color="#888888">By Bubbus and Gibbs</t><br/>', "PLAIN", 2, false, true];
-		sleep 2;
-		"MissionText" cutFadeOut 2;
-	};
-	
-	[] spawn
-	{
-		playMusic "SphereIntro";
-
-		uiSleep 27;
-
-		"DowntimeFade" cutText ["<t font='PuristaBold' size='3'>A short time later,<br/><br/>in a place not far away...</t>", "BLACK OUT", 2, true, true];
-		0 fadeSound 3;
-
-		uiSleep 3.5;
-
-
-
+		"MissionText" cutText ['<t size="3.0" font="PuristaBold">Op Fearless Victory</t><br/><t size="1" font="PuristaLight" color="#888888">An MC joint</t><br/><t size="1" font="PuristaLight" color="#888888">by Spamduck and Bubbus</t><br/>', "PLAIN", 2, false, true];
 		uiSleep 2;
-
-		"DowntimeFade" cutFadeOut 2;
-		1 fadeSound 2;
-
+		"MissionText" cutFadeOut 2;
 	};
 };
 
