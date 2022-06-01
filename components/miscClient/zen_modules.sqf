@@ -117,6 +117,16 @@ call
     ] call zen_custom_modules_fnc_register;
 
 
+    private _doTimeSkip = { [] remoteExec ["f_fnc_doTimeSkipTeleport", 0] };
+
+    [
+        "[Op Fearless Victory]",
+        "Begin the Mission",
+        _doTimeSkip
+
+    ] call zen_custom_modules_fnc_register;
+
+
     // Jammer Modules
 
     if !(isNil 'kyk_ew_fnc_broadcastJammerAdd') then
