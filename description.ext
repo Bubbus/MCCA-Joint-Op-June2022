@@ -254,21 +254,21 @@ class CfgDebriefingSections
 // it will play until the file stops, Sounds cannot be interrupted
 // unless the object playing the sound is killed or otherwise destroyed.
 // Sound files can be played in 3D, and are an effect for volume purposes.
-/*
+//*
 class CfgSounds
 {
 	sounds[] = {};
-	class wolf1
+	class PlaneIntro
 	{
 		// how the sound is referred to in the editor (e.g. trigger effects)
-		name = "my_wolf_sound";
+		name = "PlaneIntro";
 		// filename, volume, pitch
-		sound[] = {"wolf1.ogg", 1, 1};
+		sound[] = {"\res\sounds\planeintro.ogg", 1, 1};
 		// subtitle delay in seconds, subtitle text
-		titles[] = {1, "*wolf growls*"};
+		titles[] = {};
 	};
 };
-*/
+//*/
 
 
 // ============================================================================================

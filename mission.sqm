@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=21;
+		nextID=25;
 	};
 	class Camera
 	{
-		pos[]={11874.731,366.95001,17673.699};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={11698.51,499.22983,17212.836};
+		dir[]={0.14244696,-0.54346329,-0.82725847};
+		up[]={0.092222609,0.8394329,-0.53558129};
+		aside[]={-0.98549676,7.4505806e-009,-0.16969427};
 	};
 };
 binarizationWanted=0;
@@ -8870,9 +8870,9 @@ class Mission
 		lightningsForced=1;
 		wavesForced=1;
 		windForced=1;
-		year=2035;
-		month=12;
-		day=6;
+		year=2022;
+		month=6;
+		day=3;
 		hour=9;
 		minute=-15;
 		startFogDecay=0;
@@ -24058,7 +24058,7 @@ class Mission
 					};
 					id=1550;
 					type="B_medic_F";
-					atlOffset=-3.8146973e-006;
+					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24296,6 +24296,7 @@ class Mission
 					};
 					id=1556;
 					type="B_soldier_M_F";
+					atlOffset=-3.8146973e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -47856,6 +47857,7 @@ class Mission
 			};
 			id=1837;
 			type="CUP_O_Hilux_unarmed_TK_INS";
+			atlOffset=-0.0027427673;
 		};
 		class Item110
 		{
