@@ -28,9 +28,9 @@ class Header
 // ============================================================================================
 
 
-onLoadName = "*** Insert mission name here. ***";
-onLoadMission = "Made with the CAFE3 Framework";
-author = "*** Insert mission author name here. ***";
+onLoadName = "Op Fearless Victory";
+onLoadMission = "An MC Joint";
+author = "Spamduck + Bubbus";
 loadScreen = "ca_logo_large.jpg";
 
 
