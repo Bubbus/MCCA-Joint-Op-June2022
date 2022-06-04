@@ -24,8 +24,8 @@ class End1
 
 class End1
 {
-	title = "Ending #1";
-	subtitle = "";
+	title = "Intel recovered";
+	subtitle = "Who dares wins";
 	description = "Please post to the AAR thread!";
 	//music = ""; //Standard music will play
 	//code = {};
@@ -37,8 +37,8 @@ class End1
 
 class End2
 {
-	title = "Ending #2";
-	subtitle = "";
+	title = "Survived the night";
+	subtitle = "Didn't dare, didn't win";
 	description = "Please post to the AAR thread!";
 	music = ""; //No music will play
 	//code = {};
@@ -50,8 +50,8 @@ class End2
 
 class End3
 {
-	title = "Ending #3";
-	subtitle = "";
+	title = "Mission failed";
+	subtitle = "we'll get em next time";
 	description = "Please post to the AAR thread!";
 	//music = "";
 	//code = {};

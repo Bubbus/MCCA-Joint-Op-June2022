@@ -90,10 +90,13 @@ if (hasInterface) then
 
 if (isServer) then
 {
-	[] spawn {
+	[] spawn 
+	{
 		uiSleep 30;
 
 		[[2022,6,4,17,30]] remoteExec ["setDate"];
-		skipTime 1;
+		missionNamespace setVariable ["f_var_hideFireteamMarkers", false, true];
+		missionNamespace setVariable ["f_var_hideSquadMarkers", false, true];
+
 	};
 };

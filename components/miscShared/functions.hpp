@@ -41,4 +41,5 @@ class miscShared
     class keepUnitHealthy{};
     class createBriefingToggle{};
     class doTimeSkipTeleport{};
+    class makePickupable{};
 };
